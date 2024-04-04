@@ -1,5 +1,5 @@
 #### Architecture Pattern 
-Architectural patterns provide a structured approach for organizing code and separating concerns, making it easier to manage complexity and promote code reusability.
+Architectural patterns provide a structured approach for organizing code and separating concerns, making it easier to manage complexity and promote code reusability.  
 
 __Why does your app need good architecture?__
 A simple answer is that everything should be organized in a proper way. So, the project becomes easily testable, scalable, manageable, robust and modular.  
@@ -13,15 +13,15 @@ A simple answer is that everything should be organized in a proper way. So, the 
 - [Model view presenter](https://github.com/riteshpandey5102/MVP-Demo)
 - [Model view viewmodel](https://github.com/riteshpandey5102/MVVM-Demo)
 
-In this project we will learn about the first pattern Model view controller 
-### Model View Controller
-In this architecture pattern we divide our project in 3 layers
-__Model:__ The model layer is responsible for storing and retrieving data. It also notifies controller about data operation result. So, it is also depended on controller.
+In this project we will learn about the first pattern Model view controller   
+### Model View Controller  
+In this architecture pattern we divide our project in 3 layers  
+__Model:__ The model layer is responsible for storing and retrieving data. It also notifies controller about data operation result. So, it is also depended on controller.  
 __View:__ The View layer is used to display the data on user interface and also handle the user inputs.
-It gets data directly from model when data is ready and call controller for any data operation. So, it is depended on both model and controller. Also, it has some logical methods to transform the data into required format.
+It gets data directly from model when data is ready and call controller for any data operation. So, it is depended on both model and controller. Also, it has some logical methods to transform the data into required format.  
 __Controller:__ It is used as bridge between model and view. 
 When view need any data from database it will communicate controller and controller will ask model for that data and when the data is ready model will notify controller and controller will notify view to get the data from model. 
-Also, when view need to store or modify something in database it will communicate with controller and controller will send it to model to process it further.
+Also, when view need to store or modify something in database it will communicate with controller and controller will send it to model to process it further.  
 ![Model View Controller](https://github.com/riteshpandey5102/MVC-Demo/blob/master/MVC.jpg?raw=true)
 
 #### Problems in MVC
