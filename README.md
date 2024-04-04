@@ -2,7 +2,7 @@
 Architectural patterns provide a structured approach for organizing code and separating concerns, making it easier to manage complexity and promote code reusability.
 
 __Why does your app need good architecture?__
-A simple answer is that everything should be organized in a proper way. So, the project becomes easily testable, scalable, manageable, robust and modular.
+A simple answer is that everything should be organized in a proper way. So, the project becomes easily testable, scalable, manageable, robust and modular.  
 `If we don’t use a right architecture pattern to build our project, we will face many issues such as-`
 - __Difficult to test -__ Since large codes are unorganized so it’s difficult to completely test any single component.
 - __Difficult to maintain -__ Unorganized code make difficult to keep track of the methods inside a class which makes difficult to improve or maintain it.
@@ -34,8 +34,8 @@ Also, when view need to store or modify something in database it will communicat
     - View is depended on controller and model 
     - Controller is depended on view and model
     - Model is depended on Controller
-
-    Such dependency increases the code complexity and makes it difficult to test separately.
+  
+     Such dependency increases the code complexity and makes it difficult to test separately.
 
 ##### More Links
 ##### [Model view presenter](https://github.com/riteshpandey5102/MVP-Demo)
